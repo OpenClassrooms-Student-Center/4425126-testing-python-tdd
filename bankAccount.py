@@ -5,6 +5,8 @@ class BankAccount:
         self.account_balance = account_balance
 
     def account_informations(self):
-        pass
+        return {"name": self.name, 
+              "account_number": self.account_number,
+              "account_balance": self.account_balance}
 
 
