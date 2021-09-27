@@ -9,4 +9,7 @@ class BankAccount:
               "account_number": self.account_number,
               "account_balance": self.account_balance}
 
+    def withdraw(self, value):
+        pass
+
 
