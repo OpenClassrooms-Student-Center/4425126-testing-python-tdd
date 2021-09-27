@@ -10,6 +10,6 @@ class BankAccount:
               "account_balance": self.account_balance}
 
     def withdraw(self, value):
-        pass
+        self.account_balance -= value
 
 
