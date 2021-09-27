@@ -13,6 +13,6 @@ class BankAccount:
         self.account_balance -= value
 
     def deposit(self, value):
-        pass
+        self.account_balance += value
 
 
