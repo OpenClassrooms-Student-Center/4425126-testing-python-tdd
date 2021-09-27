@@ -12,4 +12,7 @@ class BankAccount:
     def withdraw(self, value):
         self.account_balance -= value
 
+    def deposit(self, value):
+        pass
+
 
